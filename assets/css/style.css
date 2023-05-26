@@ -546,12 +546,20 @@ i::before {
   position: absolute;
   top: -30px;
 }
+.bs {
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+  margin-bottom: 20px;
+}
 .laptop-ab {
   position: absolute;
   bottom: 0;
   left: 5%;
 
   width: auto;
+}
+.owl-nav {
+  display: none;
 }
 .laptop-ab img {
   height: 300px;
@@ -1382,6 +1390,15 @@ i::before {
   -o-transition: all 0.2s ease 0.15s;
   transition: all 0.2s ease 0.15s;
 }
+.portfolio-cards img {
+  flex: 1;
+}
+.portfolio-cards .po {
+  flex: 2;
+}
+.more-about {
+  margin-bottom: 20px;
+}
 .accordion .content p {
   font-size: 1rem;
   font-weight: 300;
@@ -1445,5 +1462,103 @@ i::before {
   }
   to {
     -ms-transform: rotate(360deg);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .banner-section-content h1 {
+    font-size: 45px;
+    font-weight: 600;
+    text-transform: capitalize;
+    position: relative;
+    line-height: 1.2em;
+    margin-top: 15%;
+    margin-bottom: 35px;
+    letter-spacing: -0.027em;
+  }
+  .navbar-menu {
+    display: none;
+  }
+  .main-graph {
+    display: none;
+  }
+  .btn-started {
+    padding: 20px 20px 20px 20px;
+    font-size: 16px;
+    border-style: none;
+    border-radius: 100px 100px 100px 100px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1em;
+  }
+  .start-business-heading h2 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.2em;
+    margin-bottom: 40px;
+    text-align: center;
+    letter-spacing: -0.027em;
+  }
+  .ptb-80 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .paragraph-business p {
+    padding: 0 !important;
+    color: var(--paragraph-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    text-align: center;
+  }
+  .empower h3 {
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 1.2em;
+    letter-spacing: -0.027em;
+  }
+  .more-about {
+    margin-bottom: 15px;
+  }
+  .sec-heading-blog h2 {
+    font-size: 2rem;
+    position: relative;
+  }
+  .team-expertise {
+    margin-bottom: 20px;
+  }
+  .blog-box {
+    margin-bottom: 20px;
+  }
+  .first-footer h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+  .footer-2 {
+    background: #fff;
+    box-shadow: 0px 0px 44px 0px
+      rgba(39.99999999999996, 117.99999999999994, 98.99999999999991, 0.15);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s,
+      box-shadow 0.3s;
+    text-align: center;
+    padding: 40px 40px 40px 40px;
+    border-radius: 30px;
+  }
+  .footer-links ul li {
+    /* display: inline; */
+    list-style-type: none;
+    display: contents;
+    margin-bottom: 20px;
+    margin-left: 40px;
+  }
+  .footer-links ul {
+    margin-bottom: 30px;
+  }
+  .main-m {
+    text-align: center;
+  }
+  .social-media {
+    text-align: center;
   }
 }
