@@ -248,14 +248,22 @@ i::before {
   top: 0;
   left: 0;
   background: #d2ebe5;
+  border-radius: 0px 0px 0px 40px;
   height: 100vh;
+}
+.faqs .sec-heading-blog {
+  text-align: left;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
 }
 .navbar-menu {
 }
 .navbar-menu ul li {
   list-style-type: none;
   display: inline-block;
-  margin-right: 50px;
+  margin-right: 20px;
 }
 .navbar {
   align-items: center;
@@ -353,19 +361,17 @@ i::before {
   position: relative;
 }
 .banner-section-content h1 {
-  font-size: 65px;
+  font-size: 70px;
   font-weight: 600;
   text-transform: capitalize;
-  position: relative;
+  margin-bottom: 20px;
   line-height: 1.2em;
-  margin-top: 15%;
-  margin-bottom: 35px;
   letter-spacing: -0.027em;
 }
 
 .banner-section-content p {
   color: var(--paragraph-color);
-
+  max-width: 85%;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.8em;
@@ -481,7 +487,9 @@ i::before {
 }
 .ab-slider {
   position: absolute;
-  top: -60px;
+  top: -90px;
+  left: -10px;
+  --spacer-size: 159px;
 }
 .ab-slider img {
   border-radius: 10px 100px 100px 100px;
@@ -489,7 +497,7 @@ i::before {
 .client-box-flex {
   display: flex;
   gap: 25px;
-  margin: -80px 0px;
+  margin: -90px 0px;
   padding: 10px;
 }
 .laptop-content {
@@ -625,6 +633,7 @@ i::before {
   padding: 20px 30px;
   margin-bottom: 50px;
   border-style: none;
+  height: 520px;
   border-radius: 10px 10px 10px 10px;
   box-shadow: 0px 20px 50px 0px
     rgba(10.000000000000002, 22.000000000000007, 37, 0.08);

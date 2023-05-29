@@ -55,7 +55,7 @@ $('.owl-carousel').owlCarousel({
       nav: false,
     },
     1000: {
-      items: 3,
+      items: 4,
       nav: true,
     },
   },
