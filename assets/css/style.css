@@ -512,8 +512,9 @@ i::before {
 }
 .mobile-video {
   position: absolute;
-  bottom: -10px;
-  right: 0;
+
+  bottom: -12px;
+  right: 30px;
 }
 .mobile-video video {
   height: 465px;
@@ -541,6 +542,7 @@ i::before {
   width: 50%;
   font-weight: 600;
   margin-bottom: 20px;
+  left: 8%;
   line-height: 1.2em;
   letter-spacing: -0.027em;
 }
@@ -780,10 +782,21 @@ i::before {
   color: #fff;
   font-size: 1.2rem;
 }
+.kapitalize-p-heading-grey h3 {
+  color: #8d8d8d;
+}
+.kapitalize-p-heading-grey h5 {
+  color: #8d8d8d;
+}
+.kapitalize-p-heading-grey span {
+  color: #8d8d8d !important;
+  font-size: 2rem;
 
+  margin-bottom: 10px;
+}
 .kapitalize-p-heading span {
   font-size: 2rem;
-  color: #ffef61;
+  color: #fff;
   margin-bottom: 10px;
 }
 .kapitalize-p-heading {
@@ -791,6 +804,8 @@ i::before {
 }
 .kapitalize-p-heading-m {
   flex: 1;
+  position: relative;
+  left: 25%;
 }
 .ptb-50 {
   padding-top: 50px;
@@ -803,12 +818,15 @@ i::before {
   cursor: pointer;
 }
 .btn-circle {
-  background-color: var(--secondary-color);
+  background-color: #dcdcdc;
   color: #000;
   /* font-size: 2.5rem; */
   height: 50px;
   width: 50px;
   border-radius: 50%;
+}
+.btn-circle:hover {
+  background: var(--secondary-color);
 }
 .btn-circle .minus {
   font-weight: 500;
@@ -932,7 +950,32 @@ i::before {
 }
 .team-member {
   text-align: center;
+  position: relative;
+  top: 10px;
 }
+.team-member-ab1 img {
+  position: absolute;
+  left: 0;
+  top: -47px;
+}
+.team-member-ab1 {
+  height: 380px;
+}
+.video-inbox {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.team-member-ab2 img {
+  position: absolute;
+  left: 0;
+  top: -58px;
+}
+.team-member-ab2 {
+  height: 380px;
+}
+/* .team-member-ab {
+  position: absolute;
+  width: 100%;
+} */
 .team-member:hover {
   transition-delay: 0.25s;
   transition-duration: 0.25s;
