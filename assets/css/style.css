@@ -523,6 +523,9 @@ i::before {
 .oh {
   overflow: hidden;
 }
+.footer-image {
+  translate: 0px -12px;
+}
 .investment {
   background-color: transparent;
   position: relative;
@@ -1159,6 +1162,7 @@ i::before {
 .footer {
   position: relative;
   background: #e9f3f1;
+  border-radius: 40px 60px 100px 0px;
 }
 .first-footer {
   padding-top: 50px;
